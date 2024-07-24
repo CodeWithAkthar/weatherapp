@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>WeatherApp</h1>
+        <div>
+            <div class="input-box">
+                <input id="cityname" type="text" placeholder="Enter a city">
+                <button onclick=apifetch() class="btn"><img  src="images\search.png" alt=""></button>
+            </div>
+            <div class="result">
+                <img id="cloud" src="images\clouds.png">
+                <img id="rain" src="images\rain.png">
+                <img id="clear" src="images\clear.png">
+                <img id="drizzle" src="images\drizzle.png">
+                <img id="mist" src="images\mist.png">
+                <img id="snow" src="images\snow.png">
+                
+                <h3 id="temp"></h3>
+                <h4 id="error"></h4>
+                <h4 id="place"></h4>
+
+                <h4 id="wind"> </h4><img id="img1" src="images\wind.png" alt="">
+                <h4 id="humidity"></h4><img id="img2"  src="images\humidity.png" alt="">
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
